@@ -1,0 +1,10 @@
+<div *ngIf="Student != null">
+  Student: {{ Student?.name}}
+  <div *ngIf="Student?.isJedi == true">
+    is a jedi! on {{ Student?.templeName }}
+  </div>
+</div>
+
+<div *ngIf="Student == null">
+  Student: Not defined
+</div>
