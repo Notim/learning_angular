@@ -19,6 +19,4 @@ import { HeaderComponent } from './header/header.component';
     providers: [],
     bootstrap: [MasterpageComponent]
 })
-export class AppModule {
-
-}
+export class AppModule { }
