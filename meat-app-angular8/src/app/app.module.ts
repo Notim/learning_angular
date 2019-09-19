@@ -30,6 +30,4 @@ import { RestaurantResumeComponent } from './restaurants/restaurant-resume/resta
     providers: [],
     bootstrap: [MasterpageComponent]
 })
-export class AppModule {
-
-}
+export class AppModule { }
