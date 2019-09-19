@@ -5,13 +5,9 @@ import {Component, OnInit} from '@angular/core';
     templateUrl: './header.component.html'
 })
 export class HeaderComponent implements OnInit {
-
-    constructor() {
-
-    }
+    constructor() { }
 
     public ngOnInit(): void {
-
+        console.log('header was loaded');
     }
-
 }
