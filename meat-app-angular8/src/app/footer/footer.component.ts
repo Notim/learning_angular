@@ -23,6 +23,7 @@ export class FooterComponent implements OnInit {
     }
 
     public ngOnInit(): void {
+        console.log('footer was loaded');
     }
 
 }
